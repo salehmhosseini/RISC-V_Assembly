@@ -1,4 +1,4 @@
-.data # not work correctly
+.data 
 
 .text
 li a7, 5      # Read the number of test cases and store in a0
@@ -32,7 +32,7 @@ test_case_loop:
   blt t5, t2, not_triangle   # if B + C < A, not a triangle
 
   li a7, 1   # Print 1 if it's a triangle
-  mv a0, t2
+  li a0, 1
   ecall
   j end_test_case
 

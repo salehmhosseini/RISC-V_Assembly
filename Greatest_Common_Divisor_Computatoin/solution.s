@@ -1,4 +1,4 @@
-.text # TODO get the input in one line
+.text 
 li a7, 5      # Read the number of test cases and store in a0
 ecall
 mv t0, a0     # t0: number of test cases
